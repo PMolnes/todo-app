@@ -10,13 +10,13 @@
       </nav>
       <SearchField />
     </header>
-    <main class="p-2 flex flex-col">
+    <main class="p-2 flex flex-col gap-y-4">
       <a
         class="border border-dashed border-cyan-400 rounded-3xl text-cyan-400 p-2 text-center active:bg-cyan-100"
         >+ Add New</a
       >
-      <TodoItem />
-      <TodoItem />
+      <TodoItem category="home" title="Do the dishes" />
+      <TodoItem category="work" title="Learn TypeScript" />
     </main>
   </div>
 </template>
